@@ -5,15 +5,18 @@ import router from '@/router';
 import i18n from '@/i18n';
 
 import PrimeVue from 'primevue/config';
+
+// темы
 import Aura from '@primeuix/themes/aura';
 import Lara from '@primeuix/themes/lara';
 import Material from '@primeuix/themes/material';
 import Nora from '@primeuix/themes/nora';
-import 'primeicons/primeicons.css'
 
-import Button from "primevue/button"
+// остальной primevue
+import 'primeicons/primeicons.css';
+import 'primeflex/primeflex.css';
 
-
+import Button from 'primevue/button';
 
 const app = createApp(App);
 

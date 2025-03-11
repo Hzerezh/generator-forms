@@ -16,6 +16,7 @@
     "dayjs": "^1.11.13",
     "openapi-typescript-fetch": "^2.1.0",
     "pinia": "^3.0.1",
+    "primeflex": "^4.0.0",
     "primeicons": "^7.0.0",
     "primevue": "^4.3.1",
     "vee-validate": "^4.15.0",

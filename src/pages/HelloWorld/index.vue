@@ -7,14 +7,15 @@ const count = ref(0)
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
+  <div class="flex justify-content-center flex-wrap" >
+    <div class="col-3 my-auto">
+      <h1>{{ msg }}</h1>
+      <div class="card">
+        <Button :label="'Счетчик на ' + count" @click="count++" severity="info" icon="pi pi-bolt" />
+      </div>
 
-  <div class="card">
-
-    <Button :label="'Счетчик на ' + count" @click="count++" severity="info" icon="pi pi-bolt" />
-
+    </div>
   </div>
-
 </template>
 
 <style scoped>
