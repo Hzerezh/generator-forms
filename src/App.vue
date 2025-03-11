@@ -3,7 +3,6 @@ import HelloWorld from '@/pages/HelloWorld/index.vue'
 </script>
 
 <template>
-  
   <HelloWorld msg="HELLO WORLD ELEMENT" />
 </template>
 
