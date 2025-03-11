@@ -6,6 +6,9 @@ import i18n from '@/i18n';
 
 import PrimeVue from 'primevue/config';
 import Aura from '@primeuix/themes/aura';
+import Lara from '@primeuix/themes/lara';
+import Material from '@primeuix/themes/material';
+import Nora from '@primeuix/themes/nora';
 import 'primeicons/primeicons.css'
 
 import Button from "primevue/button"
